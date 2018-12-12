@@ -1,0 +1,32 @@
+table,tr,td,th{
+    font-size: 13px;
+    padding: 0;   
+}
+i{
+    cursor: pointer;
+    margin: 0px 5px;
+    font-size: 16px;
+}
+i:nth-child(1){
+    color: blueviolet;
+}
+i:nth-child(2){
+    color: red;
+}
+i:nth-child(3){
+    color: green;
+}
+#change{
+    background: #F0833B;
+    padding: 13px 25px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#change:hover{
+    background:#F36507;
+    transition: 0.2s ease-in;
+}
